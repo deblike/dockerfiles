@@ -1,0 +1,16 @@
+# Openfortivpn config file.
+# Use CONFIG_FILE env var if it's not located in /etc/openfortivpn/config
+
+host = vpniol.invertironline.com
+port = 443
+username = rarroyo
+password = loKjRK+kpL3q7Tzkn
+trusted-cert = 00d1a1ae3131ec680e86bada41b29df4171fa5ee57b1605a13e1c0655cf250c4
+
+#set-routes = 1
+#set-dns = 1
+#pppd-use-peerdns = 1
+
+#user-cert = < if used, set to mapped dir, usually /etc/openfortivpn/user-cert.pem >
+#user-key =  < same for key >
+#trusted-cert = < sha256 server cert fingerprint if ca is not recognized >

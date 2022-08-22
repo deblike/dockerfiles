@@ -55,5 +55,5 @@ COPY local.conf /etc/fonts/local.conf
 USER chrome
 
 # Autorun chrome
-ENTRYPOINT [ "google-chrome" ]
+ENTRYPOINT [ "google-chrome --no-sandbox" ]
 CMD [ "--user-data-dir=/data" ]
